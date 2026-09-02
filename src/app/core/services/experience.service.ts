@@ -20,9 +20,9 @@ export class ExperienceService {
       company: 'Acrelec Informática Group',
       startDate: new Date('2024-01-01'),
       tasks: [
-        'Gestión integral de proyectos IT desde la planificación hasta la entrega final.',
-        'Coordinación y ejecución de despliegues de aplicaciones y software en producción.',
-        'Gestión del flujo de trabajo y documentación técnica.',
+        'Gestión de proyectos IT, planificación, seguimiento y entrega de proyectos de software y hardware, alineados con los objetivos.',
+        'Coordinación y ejecución segura de actualizaciones de software y despliegues de aplicaciones en entornos de producción, minimizando riesgos y tiempos de inactividad.',
+        'Mejora continua en los flujos de trabajo del equipo y estandarización de la documentación técnica.',
       ],
     },
     {

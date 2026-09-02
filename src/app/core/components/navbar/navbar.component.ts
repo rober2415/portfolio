@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ThemeMode, ThemeService } from '../../services/theme/theme.service';
+import { ThemeMode, ThemeService } from '../../services/theme.service';
 
 @Component({
   selector: 'app-navbar',
