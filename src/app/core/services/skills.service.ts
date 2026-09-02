@@ -58,7 +58,7 @@ export class SkillsService {
     {
       id: 'php',
       name: 'PHP',
-      imageUrl: './assets/img/Php_dark.svg',
+      imageUrl: './assets/img/Php.svg',
       category: 'backend',
       changesWithTheme: true,
     },
@@ -71,14 +71,14 @@ export class SkillsService {
     {
       id: 'mysql',
       name: 'MySQL',
-      imageUrl: './assets/img/MySQL_dark.svg',
+      imageUrl: './assets/img/MySQL.svg',
       category: 'database',
       changesWithTheme: true,
     },
     {
       id: 'mongodb',
       name: 'MongoDB',
-      imageUrl: './assets/img/MongoDB_dark.svg',
+      imageUrl: './assets/img/MongoDB.svg',
       category: 'database',
     },
     {
@@ -90,7 +90,7 @@ export class SkillsService {
     {
       id: 'github',
       name: 'GitHub',
-      imageUrl: './assets/img/GitHub_dark.svg',
+      imageUrl: './assets/img/GitHub.svg',
       category: 'version-control',
       changesWithTheme: true,
     },
