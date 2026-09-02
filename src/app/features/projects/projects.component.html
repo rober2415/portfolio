@@ -4,27 +4,22 @@
         @for( project of projects; track project.id){
         <div class="project-card">
             <div class="project-image">
-                <img src="{{project.image}}" class="project-image" alt="Previsualización de SURL">
+                <img [src]="project.image" class="project-image" [alt]="'Previsualización de ' + project.title">
             </div>
             <div>
                 <div class="project-title">{{project.title}}</div>
                 <div class="project-desc">
-                    <p>Desarrollé la aplicación para resolver el problema de la gestión e interacción
-                        con enlaces largos, buscando ofrecer una herramienta rápida, ligera y escalable.
-                        La aplicación fue construida con Angular, haciendo uso de módulos y lazy
-                        loading para mejorar el rendimiento del cliente. Por su parte, la comunicación con el backend
-                        cuenta
-                        con protección de rutas y autenticación mediante Laravel Sanctum.</p>
+                    <p>{{project.description}}</p>
                 </div>
                 <div class="tags" style="margin-bottom: 15px;">
                     @for(tag of project.tags; track $index){
                     <span class="tag">
-                        <img src="{{tag.icon}}" alt="{{tag.name}}" class="tag-icon">{{tag.name}}</span>
+                        <img [src]="tag.icon" [alt]="tag.name" class="tag-icon">{{tag.name}}</span>
                     }
                 </div>
                 <div class="project-url">
-                    <a href="{{project.code}}" target="_blank">Code &rarr;</a>
-                    <a href="{{project.preview}}" target="_blank">Preview &rarr;</a>
+                    <a [href]="project.code" target="_blank">Code &rarr;</a>
+                    <a [href]="project.preview" target="_blank">Preview &rarr;</a>
                 </div>
             </div>
         </div>
