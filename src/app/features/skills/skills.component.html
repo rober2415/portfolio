@@ -6,7 +6,7 @@
             <div class="skill-tags">
                 @for (skill of frontendSkills; track skill.id) {
                 <div class="skill-item">
-                    <img src="{{ skill.imageUrl }}" alt="{{ skill.name }}" class="skill-icon">
+                    <img [src]="skill.imageUrl" [alt]="skill.name" class="skill-icon" [class.theme-icon]="skill.changesWithTheme">
                     <span class="tag">{{ skill.name }}</span>
                 </div>
                 }
@@ -18,7 +18,7 @@
             <div class="skill-tags">
                 @for (skill of backendAndDbSkills; track skill.id) {
                 <div class="skill-item">
-                    <img src="{{ skill.imageUrl }}" alt="{{ skill.name }}" class="skill-icon">
+                    <img [src]="skill.imageUrl" [alt]="skill.name" class="skill-icon" [class.theme-icon]="skill.changesWithTheme">
                     <span class="tag">{{ skill.name }}</span>
                 </div>
                 }
@@ -31,7 +31,7 @@
             <div class="skill-tags">
                 @for (skill of toolsAndManagementSkills; track skill.id) {
                 <div class="skill-item">
-                    <img src="{{ skill.imageUrl }}" alt="{{ skill.name }}" class="skill-icon">
+                    <img [src]="skill.imageUrl" [alt]="skill.name" class="skill-icon" [class.theme-icon]="skill.changesWithTheme">
                     <span class="tag">{{ skill.name }}</span>
                 </div>
                 }

@@ -1,4 +1,3 @@
-/* Hero Section */
 .hero {
   padding: 160px 0 100px;
   display: flex;
@@ -66,4 +65,9 @@
 .btn-secondary:hover {
   background-color: var(--card-bg);
   border-color: var(--text-secondary);
+}
+
+.hero-icon {
+  width: 24px;
+  height: 24px;
 }

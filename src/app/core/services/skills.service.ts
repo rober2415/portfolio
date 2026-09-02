@@ -5,6 +5,7 @@ export interface Skill {
   name: string;
   imageUrl: string;
   category: string;
+  changesWithTheme?: boolean;
 }
 
 @Injectable({
@@ -59,6 +60,7 @@ export class SkillsService {
       name: 'PHP',
       imageUrl: './assets/img/Php_dark.svg',
       category: 'backend',
+      changesWithTheme: true,
     },
     {
       id: 'java',
@@ -71,6 +73,7 @@ export class SkillsService {
       name: 'MySQL',
       imageUrl: './assets/img/MySQL_dark.svg',
       category: 'database',
+      changesWithTheme: true,
     },
     {
       id: 'mongodb',
@@ -89,6 +92,7 @@ export class SkillsService {
       name: 'GitHub',
       imageUrl: './assets/img/GitHub_dark.svg',
       category: 'version-control',
+      changesWithTheme: true,
     },
     {
       id: 'docker',
