@@ -1,5 +1,5 @@
 .hero {
-  padding: 160px 0 100px;
+  padding: 160px 20px 100px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -70,4 +70,10 @@
 .hero-icon {
   width: 24px;
   height: 24px;
+}
+
+@media (max-width: 650px) {
+  .hero {
+    padding: 90px 20px 40px;
+  }
 }

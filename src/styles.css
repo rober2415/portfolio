@@ -87,14 +87,12 @@ strong {
   color: var(--accent);
 }
 
-/* Container */
 .container {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* Sections General */
 section {
   padding: 80px 0;
   border-top: 1px solid #334155;
@@ -159,7 +157,6 @@ section {
   color: var(--text-secondary);
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 2.5rem;
