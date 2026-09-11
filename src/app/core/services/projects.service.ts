@@ -32,7 +32,7 @@ export class ProjectsService {
       ],
       code: 'https://github.com/rober2415/short-url',
       preview: 'https://surlrca.vercel.app',
-      image: 'assets/img/surl-preview.png',
+      image: 'assets/img/surl-preview.webp',
     },
   ];
   constructor() {}
