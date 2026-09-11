@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { HeroComponent } from './features/hero/hero.component';
-import { NavbarComponent } from './core/components/navbar/navbar.component';
+import { NavbarComponent } from './shared/components/navbar/navbar.component';
 import { ExperienceComponent } from './features/experience/experience.component';
 import { ProjectsComponent } from './features/projects/projects.component';
-import { FooterComponent } from './core/components/footer/footer.component';
+import { FooterComponent } from './shared/components/footer/footer.component';
 import { AboutmeComponent } from './features/aboutme/aboutme.component';
 import { SkillsComponent } from './features/skills/skills.component';
 import { EducationComponent } from './features/education/education.component';
