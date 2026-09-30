@@ -27,7 +27,7 @@ export class ExperienceService {
     },
     {
       id: 2,
-      role: 'Técnico de Sistemas',
+      role: 'SysAdmin',
       company: 'Acrelec Informática Group',
       startDate: new Date('2023-01-02'),
       endDate: new Date('2024-12-31'),
