@@ -4,3 +4,8 @@
 .timeline-item:hover {
   transform: translateY(-5px);
 }
+
+.timeline-body ul {
+  list-style-position: outside;
+  padding-left: 1.25rem;
+}
