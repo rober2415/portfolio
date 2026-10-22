@@ -31,6 +31,7 @@ export class ExperienceService {
       role: 'IT Project Manager',
       company: 'Acrelec Informática Group',
       startDate: new Date('2024-01-01'),
+      endDate: new Date('2026-09-30'),
       tasks: [
         'Logré que los proyectos de software y hardware se entregaran alineados con los objetivos del negocio al planificarlos con metodologías ágiles y seguimiento continuo en Asana, lo que dio al equipo prioridades claras y entregas más previsibles.',
         'Minimicé los riesgos y las paradas de servicio en producción al coordinar y ejecutar actualizaciones y despliegues con validación previa y plan de contingencia, logrando puestas en marcha seguras y sin interrumpir la operación.',
