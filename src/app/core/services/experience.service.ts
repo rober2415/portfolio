@@ -17,7 +17,7 @@ export class ExperienceService {
     {
       id: 1,
       role: 'SysAdmin',
-      company: 'Acrelec Informática Group',
+      company: 'Acrelec',
       startDate: new Date('2023-01-02'),
       endDate: new Date('2024-12-31'),
       tasks: [
@@ -29,7 +29,7 @@ export class ExperienceService {
     {
       id: 2,
       role: 'IT Project Manager',
-      company: 'Acrelec Informática Group',
+      company: 'Acrelec',
       startDate: new Date('2024-01-01'),
       endDate: new Date('2026-09-30'),
       tasks: [
