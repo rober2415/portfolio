@@ -86,3 +86,8 @@
     height: 320px;
   }
 }
+.more-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
