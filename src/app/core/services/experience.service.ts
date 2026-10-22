@@ -38,8 +38,19 @@ export class ExperienceService {
         'Aceleré el ritmo de trabajo del equipo al revisar y mejorar de forma continua sus flujos de trabajo, eliminando fricciones y trabajo duplicado.',
       ],
     },
+    {
+      id: 3,
+      role: 'Software Developer',
+      company: 'KTP Consulting',
+      startDate: new Date('2026-10-01'),
+      tasks: [
+        'Transformé las necesidades del cliente al desarrollar e integrar nuevas funcionalidades a medida, mejorando la satisfacción del usuario y valor del producto.',
+        'Aseguré la estabilidad y evolución de las aplicaciones al desarrollar y mantener soluciones, adaptadas a las necesidades del negocio.',
+        'Reforcé la seguridad y robustez del software mediante la identificación y corrección de vulnerabilidades críticas, reduciendo riesgos y protegiendo la integridad de los datos.',
+        'Mejoré la mantenibilidad mediante la refactorización del código base, para mejorar su legibilidad, mantenibilidad y escalabilidad.',
+      ],
+    },
   ];
-  constructor() {}
 
   getExperiences() {
     return [...this.experiences].sort(
